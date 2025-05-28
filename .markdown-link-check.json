@@ -1,0 +1,18 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https://github-readme-stats.vercel.app"
+    },
+    {
+      "pattern": "^https://github-readme-streak-stats.herokuapp.com"
+    },
+    {
+      "pattern": "^https://komarev.com/ghpvc"
+    }
+  ],
+  "httpStatusCodes": [200, 301, 302],
+  "timeout": "10s",
+  "retryOn429": true,
+  "retryCount": 3,
+  "fallbackHttpStatus": 200
+}
