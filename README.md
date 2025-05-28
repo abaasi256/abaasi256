@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- Status & Analytics Badges -->
-![CI/CD Status](https://img.shields.io/badge/CI%2FCD-No%20Workflows-lightgrey?style=flat-square&logo=github-actions&logoColor=white)
+![CI/CD Status](https://github.com/abaasi256/abaasi256/workflows/Profile%20Portfolio%20CI%2FCD/badge.svg)
 ![Profile Views](https://komarev.com/ghpvc/?username=abaasi256&color=58A6FF&style=flat-square&label=Profile+Views)
 ![GitHub followers](https://img.shields.io/github/followers/abaasi256?style=flat-square&color=58A6FF&logo=github)
 ![GitHub User's stars](https://img.shields.io/github/stars/abaasi256?style=flat-square&color=58A6FF&logo=github)
