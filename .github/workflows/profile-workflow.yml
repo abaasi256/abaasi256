@@ -53,24 +53,32 @@ jobs:
       run: |
         echo "📋 Validating portfolio content..."
         
-        # Check for key sections
-        if grep -q "Cloud/DevOps Engineer" README.md; then
+        # Check for key sections (more flexible patterns)
+        if grep -qi "Cloud.*Engineer\|DevOps.*Engineer\|Cloud.*Architect" README.md; then
           echo "✅ Professional title found"
+        else
+          echo "⚠️ Professional title pattern not found, but continuing..."
         fi
         
         if grep -q "7+ years" README.md; then
           echo "✅ Experience level mentioned"
+        else
+          echo "⚠️ Experience level not found, but continuing..."
         fi
         
-        if grep -q "Featured Projects" README.md; then
+        if grep -qi "Featured Projects\|Projects" README.md; then
           echo "✅ Projects section found"
+        else
+          echo "⚠️ Projects section not found, but continuing..."
         fi
         
-        if grep -q "Let's Connect" README.md; then
+        if grep -qi "Let's Connect\|Contact" README.md; then
           echo "✅ Contact section found"
+        else
+          echo "⚠️ Contact section not found, but continuing..."
         fi
         
-        echo "📊 Content validation complete"
+        echo "📊 Content validation complete (non-blocking)"
         
     - name: Validate Links (Safe)
       run: |
