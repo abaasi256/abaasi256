@@ -11,13 +11,11 @@
 
 ---
 
-### 🎯 Mission Statement
+## 🎯 **Mission Statement**
 
-**Cloud Solutions Architect** & **AI Automation Specialist** with expertise in designing, deploying, and optimizing enterprise-grade **AWS infrastructure**.  
-I specialize in **Infrastructure as Code (IaC)**, **serverless architectures**, and **AI-driven automation** to help organizations achieve digital transformation — securely, at scale, and cost-effectively.
+Passionate **Cloud Solutions Architect** and **AI Automation Specialist** with expertise in designing, deploying, and optimizing enterprise-grade AWS infrastructure. I specialize in **Infrastructure as Code (IaC)**, **serverless architectures**, and **AI-driven automation** to help organizations achieve digital transformation while maintaining security, scalability, and cost efficiency.
 
-**Currently seeking:**  
-Senior Cloud Engineer / DevOps Engineer / Solutions Architect roles in **US**, **Canada**, or **UK** with **visa sponsorship** opportunities.
+**Currently seeking**: Senior Cloud Engineer / DevOps Engineer / Solutions Architect roles in **US**, **Canada**, or **UK** with visa sponsorship opportunities.
 
 ---
 
