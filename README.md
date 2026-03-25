@@ -83,14 +83,13 @@ Drastically reduced theoretical privilege escalation paths across the AWS enviro
   - Configured **AWS EventBridge** to capture GuardDuty findings and trigger Lambda auto-remediation (e.g., fast-isolating compromised EC2 instances or revoking leaked IAM credentials).
   - Enforced AWS KMS encryption and MFA-delete on S3 security data lakes to ensure the integrity of forensic logs.
 
-## 🚧 Current Focus
+## 🚀 Featured Project: Cloud Security Audit Engine (Serverless)
 
-- Building a serverless security audit tool to detect:
-  - IAM misconfigurations
-  - Exposed APIs
-  - Weak authentication flows
-- Simulating real-world attack scenarios against cloud-native applications.
-- Improving detection of misconfigurations before deployment (shift-left security).
+An internal-grade, event-driven security scanning engine designed to detect, score, and simulate realistic abuse paths in AWS environments.
+
+- **[View the Engine Architecture & Repository](https://github.com/abaasi256/Cloud-Security-Audit-Engine-Serverless-)**
+- **Security Philosophy:** Assumes breach. Focuses strictly on multi-step exploitability (e.g., IAM toxic combinations and unauthenticated API floods) rather than low-context compliance alerts.
+- **Core Functionality:** Utilizes a custom Risk Scoring Engine (Impact × Exploitability × Exposure) combined with automated abuse simulation to eliminate false positives and produce high-signal intelligence.
 
 ## Technology Stack
 
