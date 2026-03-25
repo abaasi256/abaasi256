@@ -103,4 +103,4 @@ Drastically reduced theoretical privilege escalation paths across the AWS enviro
 
 - **LinkedIn**: [Abaasi Kisuule](https://www.linkedin.com/in/abaasi-k-b79420340)
 - **GitHub**: [@abaasi256](https://github.com/abaasi256)
-- **Email**: kisuulemaliq@gmail.com
+- **Email**: abaasi.dev@gmail.com
