@@ -90,6 +90,7 @@ An internal-grade, event-driven security scanning engine designed to detect, sco
 - **[View the Engine Architecture & Repository](https://github.com/abaasi256/Cloud-Security-Audit-Engine-Serverless-)**
 - **Security Philosophy:** Assumes breach. Focuses strictly on multi-step exploitability (e.g., IAM toxic combinations and unauthenticated API floods) rather than low-context compliance alerts.
 - **Core Functionality:** Utilizes a custom Risk Scoring Engine (Impact × Exploitability × Exposure) combined with automated abuse simulation to eliminate false positives and produce high-signal intelligence.
+- **Active Simulation:** Includes active abuse simulation (API rate-limit probing with header manipulation bypass testing, privilege escalation path detection) rather than static configuration checks.
 
 ## Technology Stack
 
